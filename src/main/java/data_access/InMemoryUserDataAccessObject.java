@@ -49,4 +49,7 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
         users.put(user.getName(), user);
     }
 
+    public String getCurrentUser() {
+        return currentUser;
+    }
 }
